@@ -1,6 +1,4 @@
 "homepage": "https://aru27-byte.github.io/the-vermillion/"
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
 "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
