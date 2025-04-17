@@ -1,11 +1,12 @@
 {
   "homepage": "https://aru27-byte.github.io/the-vermillion/",
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
